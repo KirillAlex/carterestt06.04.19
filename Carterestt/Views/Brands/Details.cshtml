@@ -1,0 +1,25 @@
+﻿@model Data.Brand
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="brand-inner-item">
+    <img src="~/Images/@Model.Image" class="brand-image" alt="@Model.Name" />
+    <h2>@Model.Name</h2>
+    <br /><br />
+
+    <div class="row">
+        @foreach (var item in Model.BrandPosts)
+        {
+        var post = item.Post;
+        <div class="col-md-3 col-xs-12 text-center post-item">
+            <img src="~/Images/@post.FileName" class="img-responsive img-thumbnail" alt="@post.Name" />
+            <h3>
+                @Html.RouteLink(post.Name, new { controller = "Posts", action = "Details", id = post.Id })
+
+            </h3>
+         </div>
+         }
+    </div>
+</div>

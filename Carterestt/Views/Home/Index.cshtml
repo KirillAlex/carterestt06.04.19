@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Data.Brand>
+
+@{
+        ViewBag.Title = "Home Page";
+}
+
+<h1>Добре дошли в Carterest!</h1>
+<div class="row">
+    @foreach (var item in Model)
+    {
+    <div class="col-md-3 col-xs-12 text-center brand-item">
+        <img src="~/Images/@item.Image" class="img-responsive img-thumbnail" alt="@item.Name" />
+        <h3>
+            @Html.RouteLink(item.Name, new { controller = "Brands", action="Details",  id = item.Id })
+            
+        </h3>
+    </div>
+    }
+</div>

@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Проверка на имейл";
+}
+
+<h2>@ViewBag.Title.</h2>
+<div>
+    <p>
+        Благодарим Ви, че потвърдихте имейла си. @Html.ActionLink("Кликнете тук, за да влезете.", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+    </p>
+</div>

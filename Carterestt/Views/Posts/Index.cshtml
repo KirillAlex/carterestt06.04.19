@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Data.Post>
+@{
+    int clear = 1;
+}
+<div class="brand-inner-item">
+    <h2>Всички публикации</h2>
+
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-3 col-xs-12 text-center post-item">
+                <img src="~/Images/@post.FileName" class="img-responsive img-thumbnail" alt="@post.Name" />
+                <h3>
+                    @Html.RouteLink(post.Name, new { controller = "Posts", action = "Details", id = post.Id })
+
+                </h3>
+            </div>
+            if (clear%4==0)
+            {
+                <div class="clearfix"></div>
+            }
+            clear++;
+        }
+    </div>
+</div>

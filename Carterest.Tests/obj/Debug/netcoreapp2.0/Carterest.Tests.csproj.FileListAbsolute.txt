@@ -1,0 +1,14 @@
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\Carterest.Tests.deps.json
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\Carterest.Tests.runtimeconfig.json
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\Carterest.Tests.runtimeconfig.dev.json
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\Carterest.Tests.dll
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\bin\Debug\netcoreapp2.0\Carterest.Tests.pdb
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.csprojResolveAssemblyReference.cache
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.csproj.CoreCompileInputs.cache
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.AssemblyInfoInputs.cache
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.AssemblyInfo.cs
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.dll
+C:\Users\passa\source\repos\Carterestt\Carterest.Tests\obj\Debug\netcoreapp2.0\Carterest.Tests.pdb
